@@ -124,4 +124,61 @@
 //1.10 Обработка форм
 
 
+//HTML
+//<form id="main-form", onsubmit="checkFrom(this)", method="post">
+    // <label for="name">Имя:</label>
+    // <input type="text", name="name", placeholder="Имя", id="name"><br><br>
+
+    // <label for="password">Пароль:</label>
+    // <input type="password", name="pass", placeholder="Пароль", id="pass"><br><br>
+
+    // <label for="repass">Проверка пароля:</label>
+    // <input type="password", name="repass", placeholder="Проверка пароля", id="repass"><br><br>
+
+    // <span>Пол:</span>  
+
+    // <input type="radio", name="state", id="male", value="Мужской">
+    // <label for="male">Мужской</label>
+
+    // <input type="radio", name="state", id="female", value="Женский">
+    // <label for="male">Женский</label><br><br>
+
+    // <input type="button", name="submit", value="Готово">
+//</form>
+
+//JS
+// document.getElementById('main-form').addEventListener("submit", checkForm);
+
+// function checkForm(event){
+//     event.preventDefault();
+//     var element = document.getElementById('main-form');
+
+//     var name = element.name.value;
+//     var pass = element.pass.value;
+//     var repass = element.repass.value;
+//     var state = element.state.value;
+
+//     var fail = "";
+
+//     if (name == '' || pass == '' || state == ''){
+//         fail = "Не все поля заполнены";
+//     }
+//     else if(name.length <=1 || name.length >=50){
+//         fail = "Введите корректное имя";
+//     }
+//     else if(pass != repass){
+//         fail = "Пароли должны совпадать";
+//     }
+
+//     if (fail != ""){
+//         document.getElementById('error').innerHTML = fail;
+
+//         return false;
+//     } else{
+//         alert("Все данные корректно заполнены");
+//         return True;
+//     }
+
+//     return false;
+// }
 
