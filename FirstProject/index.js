@@ -91,3 +91,37 @@
 
 // const number1 = "56hek";
 // console.log(+number1); // NaN
+
+//1.8 Обработчик событий
+
+// <button onclick="onClickButton(this)">Нажми на меня</button> // В HTML
+// var ClickScore = 0;
+
+// function OnClickButton(el){
+//     ClickScore++;
+//     el.innerHTML = "Счётчик: " + ClickScore;
+//     el.style.background = "red";
+// }
+
+//1.9 Управление HTML 
+
+// var textView = document.getElementById("text");
+// textView.style.color = 'red';
+// textView.style.backgroundColor = 'blue';
+
+// textView.innerHTML = "New<br>String";
+
+// // document.getElementById("text").style.color = 'white'
+
+// // var spans = document.getElementsByTagName('span');
+
+// var spans = document.getElementsByClassName('SimpleText');
+
+// for(var i = 0; i < spans.length; i++){
+//     console.log(spans[i].textContent)
+// }
+
+//1.10 Обработка форм
+
+
+
