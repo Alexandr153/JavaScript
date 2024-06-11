@@ -5,22 +5,16 @@
     <title>Изучение JavaScript</title>
 </head>
 <body>
-    <form id="main-form" method="post">
-        <label for="name">Имя:</label>
-        <input type="text" name="name" placeholder="Имя" id="name"><br><br>
-        <label for="password">Пароль:</label>
-        <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
-        <label for="repass">Проверка пароля:</label>
-        <input type="password" name="repass" placeholder="Проверка пароля" id="repass"><br><br>
-        <span>Пол:</span>
-        <input type="radio" name="state" id="male" value="Мужской">
-        <label for="male">Мужской</label>
-        <input type="radio" name="state" id="female" value="Женский">
-        <label for="female">Женский</label><br><br>
-        <span id="error", style="color: red"></span><br><br>
-        <input type="submit" name="submit" value="Готово">
-  </form>
-
-    <script src="index.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js">
+        let tg = window.Telegram.WebApp;
+    </script>
+    
+     <div id="usercard"> <!--Карта профиля, человека, который к нам обратился-->
+     </div>
+     <p>Just text</p> <!--Просто текст для проверки-->
+     <a class="link" href="https://mihailgok.ru">Link</a> <!--Просто ссылка для проверки-->
+     <p class="hint">Some little hint</p> <!--Просто текст-подсказка для проверки-->
+     <button id="btn" class="button">Show/Hide Main Button</button> <!--Кнопка, чтобы скрыть / показать основную кнопку-->
+     <button id="btnED" class="button">Enable/Disable Main Button</button> <!--Кнопка, чтобы сделать кнопку активной/неактивной-->
 </body>
 </html>
