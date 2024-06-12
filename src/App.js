@@ -3,8 +3,9 @@ import Button from './Components/Button/Button';
 
 function App() {
   return <>
-  Im here!
-  <Button title={'Test'} disable={false} />
+  <Button title={'Upgrades'} disable={false} type={'upgrades'}/>
+  <Button title={'Boosters'} disable={false} type={'boosters'}/>
+  <Button title={'Claim'} disable={false} type={'claim'}/>
   </>
 }
 
